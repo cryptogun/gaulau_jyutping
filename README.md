@@ -7,8 +7,10 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
 法一：  
 - 1.安装Rime输入法 http://rime.im；  
 - 2.下载“`jutjnyu_gaulaupin_dangjunbikwaa.dict.yaml`”和“`jutjnyu_gaulaupin_dangjunbikwaa.schema.yaml`” 两个文件，复制到“`【小狼毫】用戶文件夾`”下（Windows：`%AppData%\Rime`，Mac：`~/Library/Rime`，Linux：`~/.config/ibus/rime/`）（找不到？Windows的话，点击左下角开始按钮，搜索框输入`%AppData%\Rime`即可找到。）；  
-- 3.重新部署，参见：https://github.com/rime/home/wiki/RimeWithSchemata#%E4%BD%88%E7%BD%B2-rime ；  
-- 4. `<Ctrl>`+``<`>`` 切换到粤语沟漏片藤县白话输入方案。  
+- 3.“`【小狼毫】用戶文件夾`”内，找到`default.custom.yaml`，用文本编辑器打开，在	`schema_list:`下，添加一行：
+`    - schema: jutjnyu_gaulaupin_dangjunbikwaa`  
+- 4.重新部署，参见：https://github.com/rime/home/wiki/RimeWithSchemata#%E4%BD%88%E7%BD%B2-rime ；  
+- 5. `<Ctrl>`+``<`>`` 切换到粤语沟漏片藤县白话输入方案。  
   
 法二（只适用于Windows平台）：  
 - 1.安装Rime输入法 http://rime.im；  
