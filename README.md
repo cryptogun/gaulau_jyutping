@@ -37,11 +37,11 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
 -  jn：对应于国际音标[ɲ]（维基百科条目‘硬颚鼻音’），转写作'jn'。例字：抓闰鱼肉日饮入忍惹软儿热乳。读音类似于“Español”里的“ñ”。  
   
 -  d:有两种音。做-堵，租-都，灶-到，糟-刀，早-倒 错例：倒上好。  
--  b:有两种音。悲-B  错例：悲超。更多对比：摆（bye），表嫖，宝**煲|*抱暴*，饼**冰|*并病*，崩朋，伯白，博薄。  
+-  b:有两种音。悲-B  错例：悲超。更多对比：摆（bye），表嫖，宝23煲|1抱暴4，饼23冰|1并病4，崩朋，伯白，博薄。  
     为方便键盘输入，各合并成一个键。实际中请注意区分。  
 -  gw：本人听不出跟g的区别。暂时将gw==g等同。以后有必要再用Regex进行批量修改或逐个修改。  
 -  kw：本人听不出跟k的区别。暂时将kw==k等同。以后有必要再用Regex进行批量修改或逐个修改。
-#  
+-----------------------------------  
 ##韵母：  
 总共50(50)：aa aai aak aam aan aang aap aat aau ai ak am an ang ap at au e ek em en eng ep eu i ik im in ing ip it iu m ng o oe ok om on ong op ot ou u ui uk un ung ut yu  
 在香港粤拼的基础上，删去（容错）：  
