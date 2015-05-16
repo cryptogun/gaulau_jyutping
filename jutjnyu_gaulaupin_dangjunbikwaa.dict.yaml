@@ -1,15 +1,15 @@
-# Rime dictionary
-# encoding: utf-8
+#Rime dictionary
+#encoding: utf-8
 #
-# Jutjnyu_gaulaupin_dangjunbikwaa - 粵语勾漏片藤县白话
-# 参考文献：cn.voicedic.com 本人母语 藤县志 几篇期刊 www.zdic.net 网络。感谢所有！
+#Jutjnyu_gaulaupin_dangjunbikwaa - 粵语勾漏片藤县白话
+#参考文献：cn.voicedic.com 本人母语 藤县志 几篇期刊 www.zdic.net 网络。感谢所有！
 
 ---
 name: jutjnyu_gaulaupin_dangjunbikwaa
-version: "2015.05.13"
+version: "2015.05.16"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 6
+max_phrase_length: 7
 min_phrase_weight: 100
 ...
 
@@ -21,15 +21,18 @@ min_phrase_weight: 100
 按F4可换简体	gaan tai	10
 按F4可换简体	faan tai	10
 按F4可换简体	jian ti
-# θ	th 注释掉，不需要输入特殊符号。
-# ɲ	jn
-# ŋ	ng
+#θ	th 注释掉，不需要输入特殊符号。
+#ɲ	jn
+#ŋ	ng
 
 #temp 打补丁：
-# 5-13-2015
+#5-13-2015
+#“𠮩	aa	liu” 格式错误，要分行，已修正。
+
+#5-13-2015
 攷	haau
 
-# 5-10-2015
+#5-10-2015
 栅	zaa
 宜	jni
 杠	gong
@@ -43,11 +46,11 @@ min_phrase_weight: 100
 闞	hom
 獻	hin
 
-# 5-9-2015
+#5-9-2015
 偽	ngai
 溈	ngai
 
-# 9-19-2014
+#9-19-2014
 䦁	pong
 䅦	mau
 蚬	jin
@@ -78,7 +81,7 @@ min_phrase_weight: 100
 摑	gaat
 
 #10-14-2014
-# 規	kaai >> kai 已完成修改，在下下面。
+#規	kaai >> kai 已完成修改，在下下面。
 要	jniu
 脏	thong
 结	gip
@@ -4685,7 +4688,7 @@ min_phrase_weight: 100
 矗	zuk	95%
 矗	zut	90%
 
-# temp 除常用字外的一般频率字：
+#temp 除常用字外的一般频率字：
 吖	aa	100%
 吖	ngaa	95%
 錒	aa
@@ -4705,7 +4708,8 @@ min_phrase_weight: 100
 䢝	aa
 稏	aa
 㰳	aa
-𠮩	aa	liu
+𠮩	liu	100%
+𠮩	aa	95%
 𠻺	aa
 嗌	aai
 誒	aai
