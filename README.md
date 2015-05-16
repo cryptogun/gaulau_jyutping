@@ -27,7 +27,7 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
 #方案说明：  
 本拼音方案依据为《藤县志》所提供的声母韵母表。拼写方法借鉴《香港语言学学会粤语拼音方案》并稍作增删。读音参考母语和广府片标准音（cn.voicedic.com）。  
 香港粤拼方案是“目前标准化程度最高也是最普遍的一种粤拼形式。”——维基百科。  
-##声母：  
+##声母：##  
 总共20(24)：b c d f g h j jn k l m n ng p s t th w z 0 (+ b d gw kw)  
 香港粤拼方案：  
 -  j：是普通话的'y'而非'jqx'。  
@@ -41,7 +41,7 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
     为方便键盘输入，各合并成一个键。实际中请注意区分。  
 -  gw：本人听不出跟g的区别。暂时将gw==g等同。以后有必要再用Regex进行批量修改或逐个修改。  
 -  kw：本人听不出跟k的区别。暂时将kw==k等同。以后有必要再用Regex进行批量修改或逐个修改。  
-##韵母：  
+##韵母：##  
 总共50(50)：aa aai aak aam aan aang aap aat aau ai ak am an ang ap at au e ek em en eng ep eu i ik im in ing ip it iu m ng o oe ok om on ong op ot ou u ui uk un ung ut yu  
 在香港粤拼的基础上，删去（容错）：  
 -  eoi=>ui eon=>an oeng=>eng eot=>at oek=>ek  
