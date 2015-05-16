@@ -4,7 +4,7 @@
 schema:
   schema_id: jutjnyu_gaulaupin_dangjunbikwaa
   name: 粤语沟漏片藤县白话
-  version: "1.01"
+  version: "1.02"
   author:
     - safetychinese <safetychinese@gmail.com>
   description: |
@@ -52,16 +52,18 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - erase/^xx$/                # 擦除未知拼音標識xx
-    - abbrev/^([a-z]).+$/$1/     # 首字母簡拼
-    - abbrev/^(ng).+$/$1/        # 聲母簡拼
-    - abbrev/^(jn).+$/$1/        # 聲母簡拼
-    - abbrev/^(th).+$/$1/        # 聲母簡拼
+    - erase/^xx$/                 # 擦除未知拼音標識xx。
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼。
+    - abbrev/^(ng).+$/$1/         # 聲母簡拼。
+    - abbrev/^(jn).+$/$1/         # 聲母簡拼。
+    - abbrev/^(th).+$/$1/         # 聲母簡拼。
 
-#    - derive/^k/kw/               # 模糊kw和k
-#    - derive/^g/gw/               # 模糊gw和g      取消模糊，因为“中位”-“zungwai”，‘w’消失。
+#    - derive/^k/kw/               # 模糊kw和k。
+#    - derive/^g/gw/               # 模糊gw和g。      取消模糊，因为“中位”-“zungwai”，‘w’消失。
     - derive/^th/r/               # r=th 類似雙拼。
     - derive/^jn/q/               # q=jn 類似雙拼。
+    - derive/^j/y/                # 容錯。
+    - erase/^yn.*$/               # 擦除無效聲母yn（<<<jn）。
 
     - derive/oe$/oi/              # 兼容粵拼。
     - derive/ut$/yut/             # ü。
@@ -76,8 +78,8 @@ speller:
     - derive/at$/eot/             # 兼容粵拼。
     - derive/ek$/oek/             # 兼容粵拼。
     
-    - derive/aa$/a/              # aa結尾則可省略一個。
-    - derive/yu/v/               # ü。
+    - derive/aa$/a/               # aa結尾則可省略一個。
+    - derive/yu/v/                # ü。
  
 
 translator:
