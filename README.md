@@ -1,6 +1,7 @@
-# README  
-rime-jutjnyu_gaulaupin_dangjunbikwaa  
-This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一个Rime输入法的粤语沟漏片藤县白话输入方案。  
+# rime-jutjnyu_gaulaupin_dangjunbikwaa  
+This is a schema for Rime Input Method Engine about jutjnyu gaulaupin.  
+<hr>
+这是一个Rime输入法的粤语沟漏片藤县白话输入方案。  
   
 -----------------------------------  
 # 使用方法  
