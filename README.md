@@ -1,21 +1,21 @@
-#README  
+# README  
 rime-jutjnyu_gaulaupin_dangjunbikwaa  
 This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一个Rime输入法的粤语沟漏片藤县白话输入方案。  
   
 -----------------------------------  
-#使用方法  
+# 使用方法  
 法一：  
-- 1.安装Rime输入法 http://rime.im；  
-- 2.下载“`jutjnyu_gaulaupin_dangjunbikwaa.dict.yaml`”和“`jutjnyu_gaulaupin_dangjunbikwaa.schema.yaml`” 两个文件，复制到“`【小狼毫】用戶文件夾`”下（Windows：`%AppData%\Rime`，Mac：`~/Library/Rime`，Linux：`~/.config/ibus/rime/`）（找不到？Windows的话，点击左下角开始按钮，搜索框输入`%AppData%\Rime`即可找到。）；  
-- 3.“`【小狼毫】用戶文件夾`”内，找到`default.custom.yaml`，用文本编辑器打开，在	`schema_list:`下，添加一行：
+1. 安装Rime输入法 http://rime.im；  
+1. 下载“`jutjnyu_gaulaupin_dangjunbikwaa.dict.yaml`”和“`jutjnyu_gaulaupin_dangjunbikwaa.schema.yaml`” 两个文件，复制到“`【小狼毫】用戶文件夾`”下（Windows：`%AppData%\Rime`，Mac：`~/Library/Rime`，Linux：`~/.config/ibus/rime/`）（找不到？Windows的话，点击左下角开始按钮，搜索框输入`%AppData%\Rime`即可找到。）；  
+1. “`【小狼毫】用戶文件夾`”内，找到`default.custom.yaml`，用文本编辑器打开，在	`schema_list:`下，添加一行：
 `    - schema: jutjnyu_gaulaupin_dangjunbikwaa`  
-- 4.重新部署，参见：https://github.com/rime/home/wiki/RimeWithSchemata#%E4%BD%88%E7%BD%B2-rime ；  
-- 5. `<Ctrl>`+``<`>`` 切换到粤语沟漏片藤县白话输入方案。  
+1. 重新部署，参见：https://github.com/rime/home/wiki/RimeWithSchemata#%E4%BD%88%E7%BD%B2-rime ；  
+1. `<Ctrl>`+``<`>`` 切换到粤语沟漏片藤县白话输入方案。  
   
 法二（只适用于Windows平台）：  
-- 1.安装Rime输入法 http://rime.im；  
-- 2.下载`jutjnyu_gaulaupin_dangjunbikwaa-1.0.0.2.exe` ；  
-- 3.双击安装exe文件，即可。  
+1. 安装Rime输入法 http://rime.im；  
+1. 下载`jutjnyu_gaulaupin_dangjunbikwaa-1.0.0.2.exe` ；  
+1. 双击安装exe文件，即可。  
   
   
 找不到下载地方？  
@@ -24,10 +24,10 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
   
   
 -----------------------------------  
-#方案说明：  
+# 方案说明：  
 本拼音方案依据为《藤县志》所提供的声母韵母表。拼写方法借鉴《香港语言学学会粤语拼音方案》并稍作增删。读音参考母语和广府片标准音（cn.voicedic.com）。  
 香港粤拼方案是“目前标准化程度最高也是最普遍的一种粤拼形式。”——维基百科。  
-##声母：  
+## 声母：  
 总共20(24)：b c d f g h j jn k l m n ng p s t th w z 0 (+ b d gw kw)  
 香港粤拼方案：  
 -  j：是普通话的'y'而非'jqx'。  
@@ -41,10 +41,9 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
     为方便键盘输入，各合并成一个键。实际中请注意区分。  
 -  gw：本人听不出跟g的区别。暂时将gw==g等同。以后有必要再用Regex进行批量修改或逐个修改。  
 -  kw：本人听不出跟k的区别。暂时将kw==k等同。以后有必要再用Regex进行批量修改或逐个修改。
- 	  
-=======  
+
 -----------------------------------  
-##韵母：  
+## 韵母：  
 总共50(50)：aa aai aak aam aan aang aap aat aau ai ak am an ang ap at au e ek em en eng ep eu i ik im in ing ip it iu m ng o oe ok om on ong op ot ou u ui uk un ung ut yu  
 在香港粤拼的基础上，删去（容错）：  
 -  eoi=>ui eon=>an oeng=>eng eot=>at oek=>ek  
@@ -56,7 +55,7 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
 -  ei=>ai  
   
 -----------------------------------  
-#方案缺陷：  
+# 方案缺陷：  
 - 缺少音调。  
 - b1=b2，d1=d2，不区分。  
 - gw=g，kw=k，不区分。  
@@ -65,7 +64,7 @@ This is a schema for Rime Input Method Engine about jutjnyu gaulaupin. 这是一
 - 经常使用本方案输入，可能会导致普通话生疏、不标准。  
   
 -----------------------------------  
-#本方案记忆技巧：  
+# 本方案记忆技巧：  
 （别问我为什么这么编码，我也不知道。这是粤拼Jyutping，香港佬弄的。可能与拉丁、罗马之类有关。）  
  aa   啊  
  aai  矮  
@@ -96,12 +95,12 @@ ptk结尾
 分辨：短促发声的字，雅称“入声”。  
   
   
-##科普下声调：  
+## 科普下声调：  
   
 诗史试 1 2 3 高昂，频率高，逐字降调。  
 市时事 4 5 6 低沉。  
 色勺食 7 8 9 短促，高中低，阳入中入阴入。  
   
 -----------------------------------  
-#参考文献：  
+# 参考文献：  
 cn.voicedic.com 本人母语 藤县志 几篇期刊 www.zdic.net 网络。感谢所有！  
