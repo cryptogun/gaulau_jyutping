@@ -1,3 +1,7 @@
+# Deprecated 已弃坑
+This repository was deprecated in favor of [gaulau_jyutping](https://github.com/cryptogun/gaulau_jyutping/). Reason: 1. Naming. 2. Lack of maintaince.  
+本项目已迁移至[gaulau_jyutping](https://github.com/cryptogun/gaulau_jyutping/)。这里不再维护。  
+
 # rime-jutjnyu_gaulaupin_dangjunbikwaa  
 This is a schema for Rime Input Method Engine about jutjnyu gaulaupin.  
 这是一个Rime输入法的粤语沟漏片藤县白话输入方案。  
