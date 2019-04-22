@@ -2,14 +2,14 @@
 # encoding: utf-8
 
 schema:
-  schema_id: jutjnyu_gaulaupin_dangjunbikwaa
-  name: 粤语沟漏片藤县白话
-  version: "1.02"
+  schema_id: gaulau_jyutping_dangjun
+  name: 勾漏粤拼藤县白话
+  version: "2.00"
   author:
     - safetychinese <safetychinese@gmail.com>
   description: |
     藤县白话 採用香港語言學會粵語拼音方案并修改。
-    http://www.lshk.org/cantonese.php
+    https://www.lshk.org/jyutping
   dependencies:
     - luna_pinyin
 
@@ -83,7 +83,7 @@ speller:
  
 
 translator:
-  dictionary: jutjnyu_gaulaupin_dangjunbikwaa
+  dictionary: gaulau_jyutping_dangjun
   spelling_hints: 5
 
 reverse_lookup:
