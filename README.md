@@ -6,8 +6,6 @@ It can be used in [Rime](https://rime.im/), a universal cross platform Input Met
 这是一个勾漏粤拼输入方案。方言片区为粤语勾漏片，再细分则属于藤县白话。  
 本方案可以在[Rime输入法](https://rime.im/)里导入并使用。  
 此方案基于粤拼方案，以后可能另外开一个repo，设计一套基于普通话拼音的白话输入方案。  
-
-更新的原因： 本方案的原[repo](https://github.com/cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa)命名太长，与其他方案不统一，而且久不维护了。另起灶炉吧。
   
 # 正名
 `勾漏片`是正确的说法，`勾`没有三点水。以方言所在地命名。  
@@ -73,11 +71,13 @@ It can be used in [Rime](https://rime.im/), a universal cross platform Input Met
 ## 声母  
 总共20(24)个：  
 `b c d f g h j jn k l m n ng p s t th w z 0 (+ b d gw kw)`  
+
 香港粤拼方案：  
 -  j：
     + 是普通话的'y'而非'jqx'。  
 -  ng：
     + 表示鼻音[ŋ]，就如'ang','eng','ing,''ong'，故取ng作声母。  
+
 本方案：  
 -  th：
     + 对应于国际音标[θ],KK音标/θ/，取英语(think)前2字符th
